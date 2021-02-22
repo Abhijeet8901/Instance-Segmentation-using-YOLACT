@@ -3,11 +3,6 @@ import numpy as np
 import torch
 import torch.distributed as dist
 
-os.makedirs('results/images', exist_ok=True)
-os.makedirs('results/videos', exist_ok=True)
-os.makedirs('weights/', exist_ok=True)
-os.makedirs('tensorboard_log/', exist_ok=True)
-
 COLORS = np.array([[0, 0, 0], [244, 67, 54], [233, 30, 99], [156, 39, 176], [103, 58, 183], [100, 30, 60],
                    [63, 81, 181], [33, 150, 243], [3, 169, 244], [0, 188, 212], [20, 55, 200],
                    [0, 150, 136], [76, 175, 80], [139, 195, 74], [205, 220, 57], [70, 25, 100],
@@ -25,7 +20,6 @@ COLORS = np.array([[0, 0, 0], [244, 67, 54], [233, 30, 99], [156, 39, 176], [103
                    [255, 155, 0], [155, 255, 0], [0, 155, 255], [0, 255, 155], [18, 5, 40],
                    [120, 120, 255], [255, 58, 30], [60, 45, 60], [75, 27, 244], [128, 25, 70]], dtype='uint8')
 
-# 7 classes per row
 COCO_CLASSES = ('person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train',
                 'truck', 'boat', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench',
                 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant',
