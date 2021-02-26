@@ -19,11 +19,15 @@ The original model used Resnet-101 as backbone and was trained on MS-COCO Datase
 
 #### Some examples from our YOLACT base model
 
-![Example 0](data/yolact_example_0.png)
+![Example 1](results/test_img_1)
 
-![Example 1](data/yolact_example_1.png)
+![Example 2](results/test_img_2)
 
-![Example 2](data/yolact_example_2.png)
+![Example 3](results/test_img_3)
+
+![Example 4](results/test_img_4)
+
+![Example 5](results/test_img_4)
 
 You can download the Pascal VOC dataset [here](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html) or using this [link](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar)
 
