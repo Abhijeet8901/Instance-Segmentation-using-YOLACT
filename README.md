@@ -15,7 +15,7 @@ The vision community has rapidly improved object detection and semantic segmenta
 ### The network structure.  
 ![Example 0](readme_imgs/network.png)
 
-The original model used Resnet-101 as backbone and was trained on MS-COCO Dataset of 80 classes. But due to GPU limitations, I have trained my model using PASCAL VOC dataset which contains 3000 images of 20 classes. As my model was predicting 20 classes instead of 80, I used Resnet-50 as backbone to compensate. After training for 100 epochs on Tesla K80 GPU it managed to achieve fairly good results.
+The original model used Resnet-101 as backbone and was trained on MS-COCO Dataset of 80 classes. But due to GPU limitations, I have trained my model using PASCAL VOC dataset which contains 3000 images of 20 classes. As my model was predicting 20 classes instead of 80, I used Resnet-50 as backbone to compensate. After training for 111 epochs on Tesla K80 GPU it managed to achieve fairly good results.
 
 
 You can download the Pascal VOC dataset [here](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html) or using this [link](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar)
