@@ -17,7 +17,7 @@ The vision community has rapidly improved object detection and semantic segmenta
 
 The original model used Resnet-101 as backbone and was trained on MS-COCO Dataset of 80 classes. But due to GPU limitations, I have trained my model using PASCAL VOC dataset which contains 3000 images of 20 classes. As my model was predicting 20 classes instead of 80, I used Resnet-50 as backbone to compensate. After training for 100 epochs on Tesla K80 GPU it managed to achieve fairly good results.
 
-#### Some examples from our YOLACT base model
+#### Some results from my YOLACT base model
 
 ![Example 1](results/test_img_3.jpg)
 
