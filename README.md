@@ -4,4 +4,4 @@ This is implementation of the paper [Yolact:《YOLACT: Real-time Instance Segmen
 
 For backbone, I have used used Resnet-50 and it was trained on Pascal VOC Dataset.
 
-Even though it was only trianed for 8 hours on Colab GPU for 23 epochs, it managed to achieve fairly good results.
+Even though it was only trianed for 14 hours on Colab GPU for 23 epochs, it managed to achieve fairly good results.
