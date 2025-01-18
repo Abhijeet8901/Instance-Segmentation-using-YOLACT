@@ -20,7 +20,7 @@ The original model used Resnet-101 as backbone and was trained on MS-COCO Datase
 
 You can download the Pascal VOC dataset [here](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html) or using this [link](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar)
 
-Feel free to download my trained weights using [this](https://drive.google.com/file/d/1-oC_76zS5AcfzDR9FH8GDbpRduWHYOy1/view?usp=sharing) drive link.
+Feel free to download my trained weights using [this](https://drive.google.com/file/d/1-g1caQgAG3PFvPrpQgTFw0lSSLv2oz62/view?usp=drivesdk) drive link.
 
 #### Some results from my YOLACT base model
 
